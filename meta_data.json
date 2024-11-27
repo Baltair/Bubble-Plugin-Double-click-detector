@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "technical",
+        "1": "containers"
+    },
+    "data_tracked": false,
+    "description": "Trigger an action when a user double click on a zone covered by this element.\n\nYou can request improvement to the detector via https://joapp.ca/request",
+    "image": "//s3.amazonaws.com/appforest_uf/f1653407868752x280683756290508450/click-mouse-icon-29.jpg",
+    "license": "open_source",
+    "name": "Double-click detector",
+    "plugin_instructions": "Simply add the element where the double-click detector must detect a double click and it will work.",
+    "sa_node_version": 18
+}

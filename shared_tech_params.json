@@ -1,0 +1,12 @@
+{
+    "assets": {
+        "AAG": {
+            "name": "logo",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1653415169343x481285894612506050/click-mouse-icon-29.jpg"
+        }
+    },
+    "dependencies": {
+        "plugin_api_version": "4",
+        "use_jquery": false
+    }
+}

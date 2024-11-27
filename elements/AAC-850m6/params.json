@@ -1,0 +1,52 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 100,
+        "width": 100
+    },
+    "display": "DoubleClick Detector",
+    "events": {
+        "AAD": {
+            "caption": "DoubleClick detected",
+            "doc": "",
+            "name": "double_click_detected"
+        }
+    },
+    "fields": {
+        "AAH": {
+            "caption": "Disable",
+            "default_val": false,
+            "doc": "If \"yes\" the detector will be disabled. DoubleClick will not trigger the event.",
+            "editor": "DynamicValue",
+            "name": "isDisabled",
+            "rank": 1,
+            "value": "boolean"
+        },
+        "AAK": {
+            "caption": "Attribute ID",
+            "doc": "The ID of the other element(s) you wish to detect DoubleClick (It only detect those element 1 time when page is loaded)",
+            "editor": "StaticText",
+            "name": "attribute_id",
+            "optional": true,
+            "rank": 2
+        },
+        "AAL": {
+            "caption": "Mode",
+            "default_val": "Both",
+            "doc": "Use this element or attach to other existing element(s) via their ID. Or work with both.",
+            "editor": "Dropdown",
+            "name": "mode",
+            "options": "Detector Area,Attach to ID,Both",
+            "rank": 0
+        }
+    },
+    "icon": "ion-mouse",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "MinWidth": true,
+        "resizable": true
+    }
+}
